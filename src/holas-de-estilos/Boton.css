@@ -15,6 +15,13 @@
     flex: 1 1; /* esta propiedad lo que hace es distribuidor la proporcion dependiendo de cuantos elementos tiene la linea, tiene el mismo ancho y altura */
 }
 .operador{
-    background-color: #00471b;
+    background-color: #18251d;
+}
+
+.boton-contenedor:hover{
+    background-color: #272776;
+}
+.operador:hover{
+    background-color:  #476854;
 }
 
