@@ -1,0 +1,20 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    flex: 1 1; /* esta propiedad lo que hace es distribuidor la proporcion dependiendo de cuantos elementos tiene la linea, tiene el mismo ancho y altura */
+}
+.operador{
+    background-color: #00471b;
+}
+
