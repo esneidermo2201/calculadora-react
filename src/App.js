@@ -30,6 +30,9 @@ function App() {
   return (
     <div className="App">
       <Logo />
+      <div className='freeCodeCamp-logo-contenedor'>
+       <p>Esneider Morales</p>
+      </div>
       <div className='contenedor-calculadora'>
         <Pantalla input={input} />
         <div className='fila'>
