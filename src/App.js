@@ -5,6 +5,7 @@ import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
 import {useState} from 'react';
 import { evaluate } from 'mathjs';
+import Logo from './componentes/Logo.js';
 
 
 
@@ -26,16 +27,9 @@ function App() {
    
   };
   
-
   return (
     <div className="App">
-      <div className='freeCodeCamp-logo-contenedor'>
-        <img
-          src={logo}
-          className='freecodecamp-logo'
-          alt="logo fcc"
-        />
-      </div>
+      <Logo />
       <div className='contenedor-calculadora'>
         <Pantalla input={input} />
         <div className='fila'>
